@@ -5,8 +5,8 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "dogs_table")
 data class Dog(
-    val breed: String
-) {
+    val breed: String,
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null
-}
+)
+

@@ -3,6 +3,7 @@
     package="ru.hadron.kotlin_dogceo_mvvm_tdd">
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

@@ -2,8 +2,10 @@ package ru.hadron.kotlin_dogceo_mvvm_tdd
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dagger.hilt.android.AndroidEntryPoint
 import ru.hadron.kotlin_dogceo_mvvm_tdd.R
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

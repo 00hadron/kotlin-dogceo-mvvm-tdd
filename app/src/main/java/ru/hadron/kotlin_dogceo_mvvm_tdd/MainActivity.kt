@@ -2,6 +2,7 @@ package ru.hadron.kotlin_dogceo_mvvm_tdd
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.hadron.kotlin_dogceo_mvvm_tdd.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
